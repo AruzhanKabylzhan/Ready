@@ -1,0 +1,7 @@
+#Sun Mar 10 16:22:17 ALMT 2024
+base.0=/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+base.1=/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/15/classes.dex
+path.0=0/classes.dex
+path.1=15/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

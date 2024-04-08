@@ -1,0 +1,340 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kz.rdd.dev"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_RESTRICTED_SETTINGS" />
+13-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:6:5-85
+13-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:6:22-82
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:7:5-71
+14-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:7:22-68
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:8:5-79
+15-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:9:5-81
+16-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+17-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-88
+17-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-85
+18
+19    <queries>
+19-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:9:5-20:15
+20        <intent>
+20-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:10:9-16:18
+21            <action android:name="android.intent.action.GET_CONTENT" />
+21-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:11:13-72
+21-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:11:21-69
+22
+23            <category android:name="android.intent.category.OPENABLE" />
+23-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:13:13-73
+23-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:13:23-70
+24
+25            <data android:mimeType="*/*" />
+25-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:15:13-44
+25-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:15:19-41
+26        </intent>
+27        <intent>
+27-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:17:9-19:18
+28            <action android:name="android.media.action.IMAGE_CAPTURE" />
+28-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:18:13-73
+28-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:18:21-70
+29        </intent>
+30        <intent>
+30-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:8:9-12:18
+31            <action android:name="android.intent.action.CREATE_DOCUMENT" />
+31-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:9:13-76
+31-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:9:21-73
+32
+33            <data android:mimeType="*/*" />
+33-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:15:13-44
+33-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:15:19-41
+34        </intent>
+35    </queries>
+36
+37    <uses-permission
+37-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:15:5-17:38
+38        android:name="android.permission.WAKE_LOCK"
+38-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:16:9-52
+39        android:maxSdkVersion="25" />
+39-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:17:9-35
+40    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+40-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:18:5-77
+40-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:18:22-74
+41
+42    <permission
+42-->[androidx.core:core:1.10.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/42aaa21f1397e64ef9c3edef2f5fc794/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+43        android:name="kz.rdd.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.10.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/42aaa21f1397e64ef9c3edef2f5fc794/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.10.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/42aaa21f1397e64ef9c3edef2f5fc794/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="kz.rdd.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.10.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/42aaa21f1397e64ef9c3edef2f5fc794/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.10.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/42aaa21f1397e64ef9c3edef2f5fc794/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+47
+48    <application
+49        android:name="kz.rdd.App"
+49-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:12:9-28
+50        android:allowBackup="false"
+50-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:13:9-36
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.10.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/42aaa21f1397e64ef9c3edef2f5fc794/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+52        android:debuggable="true"
+53        android:extractNativeLibs="true"
+53-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:14:9-41
+54        android:fullBackupContent="false"
+54-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:15:9-42
+55        android:hardwareAccelerated="true"
+55-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:16:9-43
+56        android:icon="@mipmap/ic_launcher_ready_do"
+56-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:17:9-52
+57        android:label="ReadyDo"
+57-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:18:9-35
+58        android:requestLegacyExternalStorage="true"
+58-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:19:9-52
+59        android:roundIcon="@mipmap/ic_launcher_ready_do_round"
+59-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:20:9-63
+60        android:supportsRtl="false"
+60-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:21:9-36
+61        android:testOnly="true"
+62        android:theme="@style/Theme.ReadyDo" >
+62-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:22:9-45
+63        <activity
+64            android:name="kz.rdd.MainActivity"
+64-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:24:13-41
+65            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+65-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:25:13-163
+66            android:exported="true"
+66-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:26:13-36
+67            android:label="ReadyDo"
+67-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:27:13-39
+68            android:launchMode="singleTop"
+68-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:28:13-43
+69            android:screenOrientation="portrait"
+69-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:29:13-49
+70            android:theme="@style/Theme.ReadyDo"
+70-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:30:13-49
+71            android:windowSoftInputMode="adjustResize" >
+71-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:31:13-55
+72            <intent-filter>
+72-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:32:13-36:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:33:17-69
+73-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:33:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:35:17-77
+75-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/src/main/AndroidManifest.xml:35:27-74
+76            </intent-filter>
+77        </activity>
+78
+79        <provider
+79-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+80            android:name="kz.rdd.core.local_storage.data.GenericFileProvider"
+80-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-78
+81            android:authorities="kz.rdd.dev.fileprovider"
+81-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+82            android:exported="false"
+82-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+83            android:grantUriPermissions="true" >
+83-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+84            <meta-data
+84-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:58
+85                android:name="android.support.FILE_PROVIDER_PATHS"
+85-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+86                android:resource="@xml/provider_paths" />
+86-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-55
+87        </provider>
+88        <provider
+88-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:23:9-31:20
+89            android:name="com.canhub.cropper.CropFileProvider"
+89-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:24:13-63
+90            android:authorities="kz.rdd.dev.cropper.fileprovider"
+90-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:25:13-72
+91            android:exported="false"
+91-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:26:13-37
+92            android:grantUriPermissions="true" >
+92-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:27:13-47
+93            <meta-data
+93-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:58
+94                android:name="android.support.FILE_PROVIDER_PATHS"
+94-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+95                android:resource="@xml/library_file_paths" />
+95-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-55
+96        </provider>
+97
+98        <activity
+98-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:33:9-35:39
+99            android:name="com.canhub.cropper.CropImageActivity"
+99-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:34:13-64
+100            android:exported="true" />
+100-->[com.vanniktech:android-image-cropper:4.5.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/bcc8b50e55a94ca81734e0a488b94205/transformed/android-image-cropper-4.5.0/AndroidManifest.xml:35:13-36
+101        <activity
+101-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:21:9-26:52
+102            android:name="com.chuckerteam.chucker.internal.ui.MainActivity"
+102-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:22:13-76
+103            android:label="@string/chucker_name"
+103-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:23:13-49
+104            android:launchMode="singleTask"
+104-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:24:13-44
+105            android:taskAffinity="com.chuckerteam.chucker.task"
+105-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:25:13-64
+106            android:theme="@style/Chucker.Theme" />
+106-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:26:13-49
+107        <activity
+107-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:27:9-30:52
+108            android:name="com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity"
+108-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:28:13-95
+109            android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity"
+109-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:29:13-90
+110            android:theme="@style/Chucker.Theme" />
+110-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:30:13-49
+111
+112        <service
+112-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:32:9-35:72
+113            android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseService"
+113-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:33:13-89
+114            android:exported="false"
+114-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:34:13-37
+115            android:permission="android.permission.BIND_JOB_SERVICE" />
+115-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:35:13-69
+116
+117        <receiver
+117-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:37:9-39:40
+118            android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseJobIntentServiceReceiver"
+118-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:38:13-106
+119            android:exported="false" />
+119-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:39:13-37
+120
+121        <provider
+121-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:41:9-49:20
+122            android:name="com.chuckerteam.chucker.internal.support.ChuckerFileProvider"
+122-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:42:13-88
+123            android:authorities="kz.rdd.dev.com.chuckerteam.chucker.provider"
+123-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:43:13-84
+124            android:exported="false"
+124-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:44:13-37
+125            android:grantUriPermissions="true" >
+125-->[com.github.chuckerteam.chucker:library:4.0.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/510062bd9a8561a495344a3fa6bc2e06/transformed/library-4.0.0/AndroidManifest.xml:45:13-47
+126            <meta-data
+126-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:58
+127                android:name="android.support.FILE_PROVIDER_PATHS"
+127-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+128                android:resource="@xml/chucker_provider_paths" />
+128-->[:core:local_storage] /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-55
+129        </provider>
+130
+131        <activity
+131-->[androidx.compose.ui:ui-tooling-android:1.5.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/48549206586608517994e241ebf5ce73/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+132            android:name="androidx.compose.ui.tooling.PreviewActivity"
+132-->[androidx.compose.ui:ui-tooling-android:1.5.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/48549206586608517994e241ebf5ce73/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+133            android:exported="true" />
+133-->[androidx.compose.ui:ui-tooling-android:1.5.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/48549206586608517994e241ebf5ce73/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+134        <activity
+134-->[androidx.compose.ui:ui-test-manifest:1.5.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/ca6b9c7262c37a53f3822fb09737085c/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:23:9-25:39
+135            android:name="androidx.activity.ComponentActivity"
+135-->[androidx.compose.ui:ui-test-manifest:1.5.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/ca6b9c7262c37a53f3822fb09737085c/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:24:13-63
+136            android:exported="true" />
+136-->[androidx.compose.ui:ui-test-manifest:1.5.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/ca6b9c7262c37a53f3822fb09737085c/transformed/ui-test-manifest-1.5.1/AndroidManifest.xml:25:13-36
+137
+138        <provider
+138-->[androidx.emoji2:emoji2:1.4.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/35572ddd6b7b823ada1fe0224c96ffe7/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+139            android:name="androidx.startup.InitializationProvider"
+139-->[androidx.emoji2:emoji2:1.4.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/35572ddd6b7b823ada1fe0224c96ffe7/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+140            android:authorities="kz.rdd.dev.androidx-startup"
+140-->[androidx.emoji2:emoji2:1.4.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/35572ddd6b7b823ada1fe0224c96ffe7/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+141            android:exported="false" >
+141-->[androidx.emoji2:emoji2:1.4.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/35572ddd6b7b823ada1fe0224c96ffe7/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+142            <meta-data
+142-->[androidx.emoji2:emoji2:1.4.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/35572ddd6b7b823ada1fe0224c96ffe7/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+143                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+143-->[androidx.emoji2:emoji2:1.4.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/35572ddd6b7b823ada1fe0224c96ffe7/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+144                android:value="androidx.startup" />
+144-->[androidx.emoji2:emoji2:1.4.0] /Users/seitmukhamedov/.gradle/caches/transforms-3/35572ddd6b7b823ada1fe0224c96ffe7/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+145            <meta-data
+145-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/seitmukhamedov/.gradle/caches/transforms-3/c2b36f61b9de3c2577fd266678a5c822/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+146                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+146-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/seitmukhamedov/.gradle/caches/transforms-3/c2b36f61b9de3c2577fd266678a5c822/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+147                android:value="androidx.startup" />
+147-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/seitmukhamedov/.gradle/caches/transforms-3/c2b36f61b9de3c2577fd266678a5c822/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+148            <meta-data
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+149                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+150                android:value="androidx.startup" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+151        </provider>
+152
+153        <service
+153-->[androidx.room:room-runtime:2.5.2] /Users/seitmukhamedov/.gradle/caches/transforms-3/3c7b700cca5bd954c490c66e3157991f/transformed/room-runtime-2.5.2/AndroidManifest.xml:24:9-28:63
+154            android:name="androidx.room.MultiInstanceInvalidationService"
+154-->[androidx.room:room-runtime:2.5.2] /Users/seitmukhamedov/.gradle/caches/transforms-3/3c7b700cca5bd954c490c66e3157991f/transformed/room-runtime-2.5.2/AndroidManifest.xml:25:13-74
+155            android:directBootAware="true"
+155-->[androidx.room:room-runtime:2.5.2] /Users/seitmukhamedov/.gradle/caches/transforms-3/3c7b700cca5bd954c490c66e3157991f/transformed/room-runtime-2.5.2/AndroidManifest.xml:26:13-43
+156            android:exported="false" />
+156-->[androidx.room:room-runtime:2.5.2] /Users/seitmukhamedov/.gradle/caches/transforms-3/3c7b700cca5bd954c490c66e3157991f/transformed/room-runtime-2.5.2/AndroidManifest.xml:27:13-37
+157
+158        <receiver
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+159            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+159-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+160            android:directBootAware="false"
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+161            android:enabled="true"
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+162            android:exported="true"
+162-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+163            android:permission="android.permission.DUMP" >
+163-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+164            <intent-filter>
+164-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+165                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+165-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+165-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+166            </intent-filter>
+167            <intent-filter>
+167-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+168                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+168-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+168-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+169            </intent-filter>
+170            <intent-filter>
+170-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+171                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+171-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+171-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+172            </intent-filter>
+173            <intent-filter>
+173-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+174                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+174-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+174-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/seitmukhamedov/.gradle/caches/transforms-3/3ab5d2c5485cf1f756574b8370ceb3f4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+175            </intent-filter>
+176        </receiver>
+177
+178        <activity
+178-->[com.jakewharton:process-phoenix:2.1.2] /Users/seitmukhamedov/.gradle/caches/transforms-3/124aaf0959b5dba7b71f26660b308ee9/transformed/process-phoenix-2.1.2/AndroidManifest.xml:8:9-12:75
+179            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
+179-->[com.jakewharton:process-phoenix:2.1.2] /Users/seitmukhamedov/.gradle/caches/transforms-3/124aaf0959b5dba7b71f26660b308ee9/transformed/process-phoenix-2.1.2/AndroidManifest.xml:9:13-73
+180            android:exported="false"
+180-->[com.jakewharton:process-phoenix:2.1.2] /Users/seitmukhamedov/.gradle/caches/transforms-3/124aaf0959b5dba7b71f26660b308ee9/transformed/process-phoenix-2.1.2/AndroidManifest.xml:10:13-37
+181            android:process=":phoenix"
+181-->[com.jakewharton:process-phoenix:2.1.2] /Users/seitmukhamedov/.gradle/caches/transforms-3/124aaf0959b5dba7b71f26660b308ee9/transformed/process-phoenix-2.1.2/AndroidManifest.xml:11:13-39
+182            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+182-->[com.jakewharton:process-phoenix:2.1.2] /Users/seitmukhamedov/.gradle/caches/transforms-3/124aaf0959b5dba7b71f26660b308ee9/transformed/process-phoenix-2.1.2/AndroidManifest.xml:12:13-72
+183    </application>
+184
+185</manifest>

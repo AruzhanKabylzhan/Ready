@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kz.rdd.core.local_storage" >
+4
+5    <uses-sdk android:minSdkVersion="26" />
+6
+7    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+7-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/src/main/AndroidManifest.xml:5:5-88
+7-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/src/main/AndroidManifest.xml:5:22-85
+8
+9    <application>
+9-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/src/main/AndroidManifest.xml:7:5-19:19
+10        <provider
+10-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/src/main/AndroidManifest.xml:9:9-18:20
+11            android:name="kz.rdd.core.local_storage.data.GenericFileProvider"
+11-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/src/main/AndroidManifest.xml:10:13-78
+12            android:authorities="${applicationId}.fileprovider"
+12-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/src/main/AndroidManifest.xml:11:13-64
+13            android:exported="false"
+13-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/src/main/AndroidManifest.xml:12:13-37
+14            android:grantUriPermissions="true" >
+14-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/src/main/AndroidManifest.xml:13:13-47
+15            <meta-data
+15-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/src/main/AndroidManifest.xml:15:13-17:58
+16                android:name="android.support.FILE_PROVIDER_PATHS"
+16-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/src/main/AndroidManifest.xml:16:17-67
+17                android:resource="@xml/provider_paths" />
+17-->/Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/core/local_storage/src/main/AndroidManifest.xml:17:17-55
+18        </provider>
+19    </application>
+20
+21</manifest>

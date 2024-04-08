@@ -1,0 +1,4 @@
+kz.rdd.test.app-androidTest-0 /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/build/generated/res/resValues/androidTest/debug
+kz.rdd.test.app-mergeDebugAndroidTestResources-1 /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+kz.rdd.test.app-mergeDebugAndroidTestResources-2 /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+kz.rdd.test.app-merged_res-3 /Users/seitmukhamedov/AndroidStudioProjects/ReadyDo/app/build/intermediates/merged_res/debugAndroidTest

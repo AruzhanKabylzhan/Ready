@@ -1,0 +1,2 @@
+kz.rdd.core.local_storage
+xml provider_paths
